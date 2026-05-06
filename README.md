@@ -30,7 +30,6 @@ To maintain a clean and traceable environment, I follow this process for every e
 1. **Backup:** I create a copy of the original boilerplate file (e.g., `hello_world_original.py`) before writing any code.
 2. **Development:** I work directly on the main file (e.g., `hello_world.py`) to keep it compatible with the provided test suite.
 3. **Testing:** I run tests frequently using `pytest` to ensure the solution meets all requirements.
-4. **Versioning:** Once the tests pass, I may create versioned copies (v1, v2) to document my progress and refactoring steps.
 
 ## Learning Log
 
@@ -39,4 +38,4 @@ This is a table that logs the exercises I complete and the concepts I learn. To 
 | Date | Exercise | Concepts |
 | :--- | :--- | :--- |
 | 2026-05-04 | [Hello World](./hello-world) | Functions, strings and return statement. |
- 
+| 2026-05-06 | [Guido's Gorgeous Lasagna](./guidos-gorgeous-lasagna) | Constants, parameters, arithmetic operators and function calls. |
