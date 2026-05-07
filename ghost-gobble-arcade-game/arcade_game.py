@@ -1,6 +1,7 @@
 """Functions for implementing the rules of the classic arcade game Pac-Man."""
 
 
+from asyncio import taskgroups
 def eat_ghost(power_pellet_active, touching_ghost):
     """Verify that Pac-Man can eat a ghost if he is empowered by a power pellet.
 
@@ -8,8 +9,7 @@ def eat_ghost(power_pellet_active, touching_ghost):
     :param touching_ghost: bool - is the player touching a ghost?
     :return: bool - can a ghost be eaten?
     """
-
-    pass
+    return True if power_pellet_active and touching_ghost else False
 
 
 def score(touching_power_pellet, touching_dot):
@@ -19,8 +19,7 @@ def score(touching_power_pellet, touching_dot):
     :param touching_dot: bool - is the player touching a dot?
     :return: bool - has the player scored or not?
     """
-
-    pass
+    return True if touching_power_pellet or touching_dot else False
 
 
 def lose(power_pellet_active, touching_ghost):
@@ -30,8 +29,7 @@ def lose(power_pellet_active, touching_ghost):
     :param touching_ghost: bool - is the player touching a ghost?
     :return: bool - has the player lost the game?
     """
-
-    pass
+    return True if not power_pellet_active and touching_ghost else False
 
 
 def win(has_eaten_all_dots, power_pellet_active, touching_ghost):
@@ -42,5 +40,5 @@ def win(has_eaten_all_dots, power_pellet_active, touching_ghost):
     :param touching_ghost: bool - is the player touching a ghost?
     :return: bool - has the player won the game?
     """
-
-    pass
+    return True if has_eaten_all_dots and not power_pellet_active and not touching_ghost else False
+    
