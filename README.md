@@ -39,3 +39,5 @@ This is a table that logs the exercises I complete and the concepts I learn. To 
 | :--- | :--- | :--- |
 | 2026-05-04 | [Hello World](./hello-world) | Functions, strings and return statement. |
 | 2026-05-06 | [Guido's Gorgeous Lasagna](./guidos-gorgeous-lasagna) | Constants, parameters, arithmetic operators and function calls. |
+| 2026-05-07 | [Ghost Gobble Arcade Game](./ghost-gobble-arcade-game) | Boolean logic and function composition. |
+

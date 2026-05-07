@@ -31,3 +31,20 @@
 - **Boilerplate:** The starting code provided by the platform.
 - **Parameter vs. Argument:** The variable in the `def` vs. the actual value passed during the call.
 - **Runtime:** The period when the Python interpreter is actually executing the code.
+
+## [2026-05-06] Ghost Gobble Arcade Game
+
+### 💡 Key Concepts
+- **Boolean Logic:** Combined multiple boolean conditions (`and`, `or`, `not`) to determine complex game states like winning and losing.
+- **Function Interdependency:** Implemented the `win()` function by leveraging the logic already defined in the `lose()` function (composition).
+- **Conditional Returns:** Used concise boolean expressions directly in `return` statements instead of verbose `if-else` blocks.
+
+### 🛠 Workflow & Troubleshooting
+- **Test Failure Analysis:** Analyzed `AssertionError` messages from `pytest` to understand why `win(True, True, True)` was failing.
+- **Logic Debugging:** Realized that the initial logic for `win` was too restrictive and needed to account for the power pellet being active.
+
+### 📝 Technical English Practice
+- **Power Pellet:** A special item that empowers the player (Pac-Man) to eat ghosts.
+- **AssertionError:** An error raised when a test's condition is not met (Expected vs. Actual).
+- **Boolean Expression:** A logical statement that results in either `True` or `False`.
+- **Composition:** The practice of using the results or calls of one function to build another.
