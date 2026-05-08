@@ -48,3 +48,21 @@
 - **AssertionError:** An error raised when a test's condition is not met (Expected vs. Actual).
 - **Boolean Expression:** A logical statement that results in either `True` or `False`.
 - **Composition:** The practice of using the results or calls of one function to build another.
+
+## [2026-05-07] Currency Exchange & Refactoring logic
+
+### 💡 Key Concepts
+- **Simplifiable If-Expressions:** Learned to avoid redundant `return True if condition else False` by returning the `condition` directly, making the code more "pythonic".
+- **Modulo & Floor Division:** Applied `%` to find leftovers and `//` to calculate the number of whole bills that fit into a given amount.
+- **Code Nesting & Reuse:** Refactored the final task by nesting function calls (e.g., passing `exchange_money` into `get_number_of_bills`), which follows the DRY (Don't Repeat Yourself) principle.
+- **Spread calculation:** Practiced percentage-to-decimal conversion to calculate exchange fees correctly.
+
+### 🛠 Workflow & Troubleshooting
+- **Git Versioning Control:** Mastered undoing mistakes using `git restore --staged` to unstage files and `git reset --soft HEAD~1` to revert a commit while preserving local changes.
+- **Conventional Commits:** Standardized commit messages using `feat:`, `refactor:`, and `fix:` with specific scopes like `(exchange)` or `(ghost)`.
+- **Pathspec Errors:** Resolved terminal errors by understanding that Git paths are relative to the current working directory.
+
+### 📝 Technical English Practice
+- **Spread:** The percentage fee or commission taken during a currency exchange.
+- **Denomination:** The face value of an individual banknote or bill.
+- **Unstage:** The process of removing files from the Git index before they are committed.
