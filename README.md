@@ -38,6 +38,6 @@ This is a table that logs the exercises I complete and the concepts I learn. To 
 | Date | Exercise | Concepts |
 | :--- | :--- | :--- |
 | 2026-05-04 | [Hello World](./001-hello-world) | Functions, strings and return statement. |
-| 2026-05-05 | [Guido's Gorgeous Lasagna](./002-guidos-gorgeous-lasagna) | Constants, parameters, arithmetic operators and function calls. |
-| 2026-05-06 | [Ghost Gobble Arcade Game](./003-ghost-gobble-arcade-game) | Boolean logic and function composition. |
-| 2026-05-07 | [Currency Exchange](./004-currency-exchange) | Dictionaries and float precision. |
+| 2026-05-05 | [Guido's Gorgeous Lasagna](./002-guidos-gorgeous-lasagna) | Constants, docstrings and function composition. |
+| 2026-05-06 | [Ghost Gobble Arcade Game](./003-ghost-gobble-arcade-game) | Boolean expressions and conditional returns. |
+| 2026-05-07 | [Currency Exchange](./004-currency-exchange) | Modulo, floor division and nested functions. |
